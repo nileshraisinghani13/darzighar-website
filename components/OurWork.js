@@ -2,9 +2,10 @@ import { useState } from 'react'
 
 const workItems = [
   { id: 1, category: 'Suits', title: 'Salmon Silk Anarkali', description: 'Floor-length salmon silk Anarkali with gold zari border, mirror-work cuffs and a vibrant Patola dupatta. Bespoke stitching for a Chennai customer.', image: '/images/work-anarkali-suit.png' },
+  { id: 2, category: 'Co-ords', title: 'Brocade Co-ord Set', description: 'Sleeveless deep V-neck blouse with matching wide-leg palazzo pants in rich patchwork brocade. Multicolour paisley and floral motifs with gold zari border.', image: '/images/work-brocade-coord-set.png' },
 ]
 
-const categories = ['All', 'Suits']
+const categories = ['All', 'Suits', 'Co-ords']
 
 function WorkCard({ item }) {
   return (
