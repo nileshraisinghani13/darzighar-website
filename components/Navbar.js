@@ -9,6 +9,7 @@ export default function Navbar(){
         <div className="flex items-center space-x-4">
           <a href="#services" className="text-sm">Services</a>
           <a href="#how" className="text-sm">How it works</a>
+          <a href="/our-work" className="text-sm">Our Work</a>
           <a href="#contact" className="btn-primary">Book a Tailor</a>
         </div>
       </div>
