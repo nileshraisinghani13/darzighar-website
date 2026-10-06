@@ -8,7 +8,7 @@ export default function Footer(){
         </div>
         <div className="text-sm text-gray-600 mt-4 md:mt-0">
           <div>© {new Date().getFullYear ? new Date().getFullYear() : 2025} DarziGhar</div>
-          <div className="mt-2">Contact: <a href="mailto:darzighar@gmail.com" className="underline">darzighar@gmail.com</a></div>
+          <div className="mt-2">Contact: <a href="mailto:darzighar.fashion@gmail.com" className="underline">darzighar.fashion@gmail.com</a></div>
         </div>
       </div>
     </footer>
