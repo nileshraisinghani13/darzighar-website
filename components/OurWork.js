@@ -4,9 +4,10 @@ const workItems = [
   { id: 1, category: 'Blouses', title: 'Bridal Silk Blouse', description: 'Royal purple silk bridal blouse with heavy maggam hand embroidery — gold beads, kundan stones, pearl drops and gold zari border. Front & back craftsmanship.', image: '/images/work-bridal-silk-blouse.png' },
   { id: 2, category: 'Suits', title: 'Salmon Silk Anarkali', description: 'Floor-length salmon silk Anarkali with gold zari border, mirror-work cuffs and a vibrant Patola dupatta. Bespoke stitching for a Chennai customer.', image: '/images/work-anarkali-suit.png' },
   { id: 3, category: 'Co-ords', title: 'Brocade Co-ord Set', description: 'Sleeveless deep V-neck blouse with matching wide-leg palazzo pants in rich patchwork brocade. Multicolour paisley and floral motifs with gold zari border.', image: '/images/work-brocade-coord-set.png' },
+  { id: 4, category: 'Lehengas', title: 'Black & White Lehenga Set', description: 'Showstopping black & white sequin lehenga set with premium sequins work, elegant bead tassels and graceful dupatta. Perfect for festive occasions.', image: '/images/work-bw-lehenga-set.png' },
 ]
 
-const categories = ['All', 'Blouses', 'Suits', 'Co-ords']
+const categories = ['All', 'Blouses', 'Suits', 'Co-ords', 'Lehengas']
 
 function WorkCard({ item }) {
   return (
